@@ -102,6 +102,12 @@ main {
     margin-right: 5px;
 }
 
+.right-col form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
 form {
     display: flex;
     flex-direction: column;
