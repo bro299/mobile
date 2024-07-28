@@ -155,7 +155,7 @@ form button:hover {
 }
 
 .feature img {
-    width: 100%;
+    width: 150%;
     height: auto;
     max-height: 150px; /* Set max-height for image */
     object-fit: cover; /* Ensure the image covers the area */
