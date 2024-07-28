@@ -138,14 +138,23 @@ form button:hover {
 }
 
 .feature {
-    flex: 1 1 45%;
-    margin: 10px;
+    background: #fff;
+    border: 1px solid #e9a107;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
     text-align: center;
+    width: 18%;
+    position: relative; /* Ensure proper positioning for image */
 }
 
-.feature-image {
-    max-width: 100%;
+.feature img {
+    width: 100%;
     height: auto;
+    max-height: 150px; /* Set max-height for image */
+    object-fit: cover; /* Ensure the image covers the area */
+    border-radius: 4px; /* Optional: add border-radius to match design */
+    margin-bottom: 1rem; /* Add spacing between image and text */
 }
 
 .fo-content h2 {
